@@ -166,3 +166,64 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+#dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #1a237e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#dark-mode-toggle:hover {
+  background-color: #3949ab;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode header {
+  background-color: #333;
+}
+
+body.dark-mode section {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .activity-card {
+  background-color: #2c2c2c;
+  border-color: #444;
+}
+
+body.dark-mode button {
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+body.dark-mode button:hover {
+  background-color: #444;
+}
+
+body.dark-mode .participants {
+  background-color: #2c2c2c;
+  border-color: #444;
+}
+
+body.dark-mode .success {
+  background-color: #2e7d32;
+  color: #e8f5e9;
+}
+
+body.dark-mode .error {
+  background-color: #c62828;
+  color: #ffebee;
+}
